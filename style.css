@@ -64,14 +64,13 @@ a {
 }
 
 /*bottom of the page*/
-.footer {
+.sub {
     height: 8%;
     width: 100%;
     background-color:grey;
     border-top: 3px #4aaaa5 solid;
     position: fixed;
     bottom: 0;
-    left: 0;
 }
 
 #copyright {
@@ -141,16 +140,16 @@ input[type=submit]:hover {
 img {
     margin: 10% 0 10% 0;
     margin: auto;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
 }
 
 .img {
     margin: 10% 0 10% 0;
     margin: auto;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
 }
 
@@ -167,7 +166,7 @@ img {
 .caption {
     color: white;
     background-color: #4aaaa5;
-    width: 180px;
+    width: 200px;
     clear: both;
     text-align: center;
     vertical-align: middle;
@@ -176,3 +175,6 @@ img {
     margin: auto;
 }
 
+body > .container. {
+    padding-top: 60px;
+}
